@@ -62,7 +62,7 @@ taskkill /PID <número-del-PID> /F
 ### Paso 6 — Iniciar la aplicación con PM2
 
 ```powershell
-pm2 start ecosystem.config.js
+pm2 start ecosystem.config.cjs
 ```
 
 Verifica que quedó corriendo:
