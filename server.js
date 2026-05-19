@@ -15,5 +15,5 @@ app.get('*', (_req, res) => {
 })
 
 app.listen(PORT, () => {
-  console.log(`SQL Risk Analyzer running on http://localhost:${PORT}`)
+  console.log(`Analizador consultas SQL running on http://localhost:${PORT}`)
 })
