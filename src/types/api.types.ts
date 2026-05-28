@@ -7,6 +7,7 @@ export interface Issue {
   severidad: Severity
   mensaje: string
   linea: number | null
+  extracto?: string
   recomendacion: string
   puntuacion: number
 }
